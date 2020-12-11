@@ -8,6 +8,5 @@ namespace _3_FactoryMethod.models
             this.Limit = creditLimit;
             this.AnnualCharge = annualCharge;
         }
-
     }
 }

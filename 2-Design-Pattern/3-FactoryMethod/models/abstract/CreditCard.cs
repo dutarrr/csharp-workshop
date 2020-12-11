@@ -5,6 +5,5 @@ namespace _3_FactoryMethod.models
         public string Type { get; set; }
         public int Limit { get; set; }
         public int AnnualCharge { get; set; }
-
     }
 }

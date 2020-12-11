@@ -2,10 +2,8 @@ namespace _3_FactoryMethod.models
 {
     class CardBFactory : CardFactory
     {
-
         public int CreditLimit { get; set; }
         public int AnnualCharge { get; set; }
-
 
         public CardBFactory(int creditLimit, int annualCharge)
         {
@@ -17,6 +15,5 @@ namespace _3_FactoryMethod.models
         {
             return new CardB(CreditLimit, AnnualCharge);
         }
-
     }
 }
