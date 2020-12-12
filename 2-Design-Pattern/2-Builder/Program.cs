@@ -13,6 +13,8 @@ namespace _2_Builder
             shop.Build(mercedesBuilder);
             mercedesBuilder.GetCar().Show();
 
+            System.Console.WriteLine("-----------------------------------------------");
+
             var bmvBuilder = new BmvBuilder();
             shop.Build(bmvBuilder);
             bmvBuilder.GetCar().Show();
