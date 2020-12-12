@@ -7,6 +7,11 @@ namespace _3_FactoryMethod
     {
         static void Main(string[] args)
         {
+            /*
+            Birden fazla product için tek bir tane Factory class'ı ile 
+            nesne oluşturma işlemi yapılır. Her farklı product için faklı Factory classlar olusturulursa
+            Abstract Factory olur
+            */
             CardFactory factory = null;
             CreditCard card = null;
 

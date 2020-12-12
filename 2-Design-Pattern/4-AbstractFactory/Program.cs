@@ -7,6 +7,10 @@ namespace _4_AbstractFactory
     {
         static void Main(string[] args)
         {
+            /* 
+            Her product için ayrı ayrı Factory class'ları oluşturulur. Bu classlar Client (creator) sınıflardan 
+            çağrılarak kullanılır.            
+            */
             var nokiaFactory = new NokiaFactory();
             var nokiaClient = new MobileClient(nokiaFactory);
 

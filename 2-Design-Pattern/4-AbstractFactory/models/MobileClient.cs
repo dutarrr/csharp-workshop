@@ -1,5 +1,6 @@
 namespace _4_AbstractFactory.models
 {
+    //creator
     class MobileClient
     {
         ISmartPhone smartPhone;
