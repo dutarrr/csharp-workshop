@@ -1,6 +1,6 @@
 namespace _4_AbstractFactory.models
 {
-    class NokiaFactory : IMobilePhone
+    class NokiaFactory : IMobilePhoneFactory
     {
         public ISmartPhone GetSmartPhone()
         {

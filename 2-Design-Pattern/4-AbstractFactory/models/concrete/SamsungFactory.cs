@@ -1,6 +1,6 @@
 namespace _4_AbstractFactory.models
 {
-    class SamsungFactory : IMobilePhone
+    class SamsungFactory : IMobilePhoneFactory
     {
         public ISmartPhone GetSmartPhone()
         {
@@ -9,7 +9,7 @@ namespace _4_AbstractFactory.models
 
         public INormalPhone GetNormalPhone()
         {
-            return new SamsungGuru();
+            return new SamsungNormal();
         }
     }
 }
