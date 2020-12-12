@@ -4,7 +4,7 @@ namespace _4_AbstractFactory.models
     {
         public string GetModelDetails()
         {
-            return "Model: Nokia 1600\nRAM: NA\nCamera: NA\n";
+            return "Model: Nokia 1600\nRAM: Nooo\nCamera: Noooo\n";
         }
     }
 }
