@@ -41,11 +41,10 @@ namespace _5_Prototype
     }
 
     /*
-    Eğer Address IClonable dan referans almaz ise shallow copy olur ve bu class bellekteki adresi ile kopyalanır. 
-    Kopyalanan objede bu değişirse orjinalde de değişir. 
-    IClonable yapıldığında deepcopy olur. bağımsız ayrı bir obje olur.
+    Eğer Address kendi içinde Clone olmaz ise orjinal objenin referansı gösterdiği için orjinalinde içeriği değişir.
+    İç içe objelerde herpsinin clone yapılması gerekir.
     */
-    public class Address : ICloneable
+    public class Address
     {
         public string State { get; set; }
         public string City { get; set; }
