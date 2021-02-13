@@ -4,6 +4,7 @@ namespace ShallowAndDeepCopy
 {
     class Program
     {
+        [Obsolete]
         static void Main(string[] args)
         {
             Person p1 = new Person();
@@ -71,6 +72,7 @@ namespace ShallowAndDeepCopy
             return (Person)this.MemberwiseClone();
         }
 
+        [Obsolete]
         public Person DeepCopy()
         {
             Person other = (Person)this.MemberwiseClone();
